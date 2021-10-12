@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Javier Fuertes | Portfolio</title>
+    <link rel="shortcut icon" type="image/jpg" href="resources/icons/favicon.ico"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <!--Link to fontawesome icons-->
+    <script src="https://kit.fontawesome.com/fc00ef1987.js" crossorigin="anonymous"></script>
+
+    <!--Link to Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+
+    <!--reset preset styles-->
+    <link rel="stylesheet" type="text/css" href="styles/reset.css">
+
+    <!--Fonts used in the file-->
+    <link rel="stylesheet" type="text/css" href="styles/fonts.css">
+
+    <!--main styles css-->
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+
+    <!--main styles css-->
+    <link rel="stylesheet" type="text/css" href="styles/side-menu.css">
+</head>
+
+<body>
+
+    <header>
+        <ul id="desktop-menu">
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#languages">Languages</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#studies">Studies</a></li>
+            <li><a href="#work">Work Experience</a></li>
+        </ul>
+        
+        <img id="logo" src="resources/icons/jftoplogo.png">
+        <h1>Javier Fuertes</h1>
+        <img id="hamb-icon" src="resources/images/hamb-menu.png" onclick="openNav()">
+
+        <!-- The overlay -->
+        <div id="myNav" class="overlay">
+
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+            <!-- Overlay content -->
+            <div class="overlay-content">
+                <a href="#work-studies" onclick="closeNav()">Work & Studies</a>
+                <a href="#projects" onclick="closeNav()">Projects</a>
+                <a href="#languages" onclick="closeNav()">Languages</a>
+                <a href="#contact" onclick="closeNav()">Contact</a>
+            </div>
+
+        </div>
+
+
+    </header>
+
+    <!--Top image container-->
+    <div id="container">
+        <h2><span style="font-weight: 600;">Stay hungry, stay foolish</span>. <br> <span style="font-weight: 200;">Never believe that there's nothing left to learn</span></h2>
+    </div>
+
+    <!--Portfolio sections-->
+
+    <div id="portfolio-sections">
+
+        <div id="work" class="section">
+            <h2><i class="far fa-building"></i> Work Experience</h2>
+            <p class="section-subtitle">My professional experience in the job market so far.</p>
+            <div class="info-block-container">
+                <div class="info-block">
+
+                    
+                    <h3>Digital Transformation Analyst</h3>
+                    <h4>Openbank - jul 2019 > Present day</h4>
+                    <p>Work on the bank's app. Researching new functionalities, analyzing client's feedback, app testing and realeasing.</p>
+                    <a href="#">View company website <i class="fas fa-arrow-right"></i></a>
+
+                </div>
+                <div class="info-block">
+
+                    <h3>Customer Experience Analyst</h3>
+                    <h4>CEPSA S.A.U - abr 2018 > abr 2019</h4>
+                    <p>Elaborating surveys to analyzing customer satisfaction for every business unit. Proposing improvements based on feedback.</p>
+                    <a href="#">View company website <i class="fas fa-arrow-right"></i></a>
+
+                </div>
+                <div class="info-block">
+
+                    <h3>Generali talent program</h3>
+                    <h4>Generali - oct 2016 > oct 2017</h4>
+                    <p>Worked in the marketing and digital sales department. Sales statistics and helped in the rebrand of the website.</p>
+                    <a href="#">View company website <i class="fas fa-arrow-right"></i></a>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="studies" class="section">
+            <h2><i class="fas fa-university"></i> Studies</h2>
+            <p class="section-subtitle">A bit about what I have studied and where I have worked (or still am).</p>
+            <div class="info-block-container">
+                <div class="info-block">
+
+                    
+                    <h3>International Degree in Management</h3>
+                    <h4>University of Navarra</h4>
+                    <p>4-year-long degree in Business Management. Two exchange semesters abroad in Canada and the US.</p>
+                    <a href="https://www.unav.edu/en/web/grado-en-administracion-y-direccion-de-empresas/mucho-mas-que-un-grado/general-management-and-strategy" target="_blank">View more <i class="fas fa-arrow-right"></i></a>
+
+                </div>
+                <div class="info-block">
+
+                    <h3>UX/UI Design degree</h3>
+                    <h4>EDIT </h4>
+                    <p>Digital product creation course focused on UX/UI design for web & mobile.</p>
+                    <a href="https://weareedit.io/" target="_blank">View more <i class="fas fa-arrow-right"></i></a>
+
+                </div>
+                <div class="info-block">
+
+                    <h3>Web Applications Development</h3>
+                    <h4>Edix Digital Education</h4>
+                    <p>2-year-long programming specialization course in web application development. Front and back.</p>
+                    <a href="https://www.edix.com/es/fp/daw-desarrollo-de-aplicaciones-web/" target="_blank">View more <i class="fas fa-arrow-right"></i></a>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="projects" style="clear: both;" class="section">
+            <h2><i class="far fa-clone"></i> Projects</h2>
+            <p class="section-subtitle">Either UX/UI design projects or code, here's a glimpse of what I have created.</p>
+            <div class="info-block-container">
+                <div class="info-block">
+
+                    <h3>Café Oslo</h3>
+                    <h4>Domestika Web Course</h4>
+                    <p>My first encounter with HTML and CSS. Learning about web front buulding and media queries.</p>
+                    <a href="https://medium.com/@fuertesjavier1/oslo-caf%C3%A9-discovering-html-and-css-9a184512e90e" target="_blank">Read at Medium <i class="fas fa-arrow-right"></i></a>
+
+                </div>
+                <div class="info-block">
+
+                    <h3>Forum</h3>
+                    <h4>Edix Digital Education</h4>
+                    <p>Final course project where I built an event booking webpage using Java as the backend language.</p>
+                    <a href="https://medium.com/@fuertesjavier1/forum-a-web-application-to-book-events-during-a-pandemic-8fa2973590c9" target="_blank">Read at Medium <i class="fas fa-arrow-right"></i></a>
+
+                </div>
+                <div class="info-block">
+
+                    <h3>Cepsa Hogar App</h3>
+                    <h4>Cepsa</h4>
+                    <p>Final course for the company where we created an app to control your gas and electricity bills.</p>
+                    <a href="https://medium.com/@fuertesjavier1/app-cepsa-hogar-el-planteamiento-a8fe9bfb2063" target="_blank">Read at Medium <i class="fas fa-arrow-right"></i></a>
+
+                </div>
+
+                <div class="info-block">
+
+                    <h3>Domo</h3>
+                    <h4>EDIT</h4>
+                    <p>A home automation Design project, where we had to implement different types of in-house gadgets in an app.</p>
+                    <a href="https://medium.com/@fuertesjavier1/mi-tercer-proyecto-de-ux-app-de-dom%C3%B3tica-edit-redbility-30a2768a1a14" target="_blank">Read at Medium <i class="fas fa-arrow-right"></i></a>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="languages" style="clear: both;" class="section">
+            <h2><i class="far fa-comment-alt"></i> Languages</h2>
+            <p class="section-subtitle">Talk to me in any of these three languages. We can have a conversation (maybe a slow one in japanese, but still...)</p>
+            <div class="info-block-container">
+
+                <div class="language-container">
+
+                    <div class="info-block">
+                        <img src="resources/icons/united-kingdom.png">
+                        <h3>English</h3>
+                        <p>CPE</p>
+                    </div>
+                    <div class="info-block">
+                        <img src="resources/icons/spain.png">
+                        <h3>Spanish</h3>
+                        <p>Native speaker</p>
+                    </div>
+                    <div class="info-block">
+                        <img src="resources/icons/japan.png">
+                        <h3>Japanese</h3>
+                        <p>Noken 5</p>
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+
+        <div id="contact" style="clear: both;" class="section">
+            <h2><i class="fas fa-phone"></i> Contact</h2>
+            <p class="section-subtitle">Feel free to contact me any time you want. You can find me on my social media or send me an email.</p>
+
+            <form>
+                <label>Name</label><br>
+                <input required><br>
+
+                <label>Email address</label><br>
+                <input required><br>
+
+                <label>Topic</label><br>
+                <input required><br>
+
+                <label>Write here:</label><br>
+                <textarea rows="5" required></textarea>
+
+                <button type="submit">Send email <i class="far fa-paper-plane"></i></button>
+
+            </form>
+
+            <div class="social-media">
+                <a href="#" style="color: #0E76A8" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="#" style="color: #171515" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#" style="color: #1da1f2" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <img src="resources/icons/jflogo.png">
+        <p>fully designed and coded by Javier Fuertes</p>
+        
+    </footer>
+    <script>
+        /* Open when someone clicks on the span element */
+        function openNav() {
+            document.getElementById("myNav").style.right = "0";
+        }
+
+        /* Close when someone clicks on the "x" symbol inside the overlay */
+        function closeNav() {
+            document.getElementById("myNav").style.right = "-10000px";
+        }
+    </script>
+
+</body>
+
+
+
+
+</html>

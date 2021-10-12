@@ -1,0 +1,280 @@
+/*Topbar styles-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+header {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 1;
+}
+
+#desktop-menu {
+    display: none;
+}
+
+#logo {
+  float: left;
+  width: 50px;
+  height: auto;
+  margin: 15px;
+}
+
+h1 {
+  width: 80px;
+  float: left;
+  line-height: 30px;
+  margin: 15px;
+}
+
+/*main-photo styles*/
+#container {
+    height: 375px;
+    clear: both;
+    background-image: url(../resources/images/me-photo.png);
+    background-size: cover;
+    background-position: 0px 50px;
+    background-repeat: no-repeat;
+}
+
+/*Portfolio sections*/
+#portfolio-sections {
+    padding: 20px;
+}
+
+hr {
+  margin-bottom: 30px;
+  height: 1px;
+  color: #123455;
+  background-color: #123455;
+  border: none;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section p {
+    line-height: 25px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.section a {
+    text-decoration: none;
+}
+
+.info-block-container {
+    height: 250px;
+    overflow-y: hidden;
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.info-block {
+  position: relative;
+    flex: 0 0 auto;
+    width: 220px;
+    height: auto;
+    background-color:lightcyan;
+    border-radius: 5px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.info-block h3 {
+  margin-bottom: 10px;
+}
+
+.info-block h4 {
+  margin-bottom: 15px;
+}
+
+.info-block p {
+  line-height: 18px;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.info-block a {
+  position: absolute;
+  display: block;
+  color: black;
+  font-size: 12px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  transition: 0.2s;
+  bottom: 15px;;
+}
+
+.info-block a:hover {
+  background-color: black;
+  color: white;
+  transition: 0.2s;
+}
+
+#languages .info-block-container {
+  height: 130px;
+}
+
+#languages .info-block {
+  width: 100px;
+  height: auto;
+  text-align: center;
+  background-color: white;
+  border: 1px solid lightgray;
+  padding: 10px;
+}
+
+#languages .info-block h3 {
+  width: 100%;
+}
+
+#languages .info-block img {
+  width: 30px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 22px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+
+input {
+  height: 28px;
+}
+
+button {
+  width: 100%;
+  height: 36px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+
+.social-media {
+  width: 175px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.social-media a {
+  font-size: 32px;
+  margin-right: 25px;
+}
+
+/*Footer styles----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+footer {
+    height: 200px;
+    background-color:#111f2e;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+footer img {
+  margin-bottom: 20px;
+}
+
+footer p {
+  font-size: 14px;
+  line-height: 20px;
+  width: 150px;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 800px) {
+  #hamb-icon {
+    display: none;
+  }
+
+  #desktop-menu {
+    display: inline;
+    float: right;
+  }
+
+  #desktop-menu li {
+    float: right;
+    margin: 20px;
+    margin-top: 35px;
+  }
+
+  #desktop-menu li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  #container {
+    position: relative;
+    height: 600px;
+    background-image: url(../resources/images/me-photo-desktop.png);
+    background-size: cover;
+  }
+
+  #container h2 {
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    width: 500px;
+    line-height: 35px;
+  }
+
+  #portfolio-sections {
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .info-block-container {
+    display: block;
+    flex-wrap: none;
+    overflow-x: none;
+    overflow-y: none;
+    height: 100%;
+    max-width: 800px;
+    margin: auto;
+  }
+
+  .info-block {
+    flex:none;
+    height: 250px;
+  }
+
+  #portfolio-sections h2, .section-subtitle {
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 40px;
+  }
+
+  form {
+    max-width: 500px;
+    margin: auto;
+  }
+
+  .language-container {
+    width: 411px;
+    height: 100%;
+    margin: 0 auto;
+  }
+}
