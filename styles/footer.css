@@ -1,0 +1,20 @@
+/*Footer styles----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+footer {
+    height: 200px;
+    background-color:#111f2e;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+footer img {
+  margin-bottom: 20px;
+}
+
+footer p {
+  font-size: 14px;
+  line-height: 20px;
+  width: 150px;
+  margin: 0 auto;
+}
+
